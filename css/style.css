@@ -16,12 +16,14 @@ header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 97px;
+    column-gap: 60px;
     padding-top: 50px;
 }
 header img{
     width: 100%;
     padding-bottom: 0;
+    margin-left: 20px;
+    margin-bottom: -4px;
 }
 .header_title{
     color: #272727;
@@ -124,4 +126,93 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 padding-bottom: 48px;
+}
+/* latest deal related style */
+.latest_deals{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.latest_containd{
+    text-align: center;
+}
+.latest_form{
+    text-align: center;
+    align-items: center;
+}
+.latest_title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.latest_description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 16px 0 48px;
+}
+
+.email{
+    width: 500px;
+    height: 54px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+
+}
+.latest_containd{
+    padding: 122px 0 122px;
+}
+/* footer related style */
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+.footer_container{
+    padding: 50px 0;
+}
+.title{
+    color: #fff;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.description{
+    color: rgba(232, 231, 231, 0.9);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 24px 0 32px;
+}
+footer h6{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* ==================== */
+.bakso{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
 }
