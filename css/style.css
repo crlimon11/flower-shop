@@ -1,0 +1,127 @@
+/* common shared style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+/* header related style */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 97px;
+    padding-top: 50px;
+}
+header img{
+    width: 100%;
+    padding-bottom: 0;
+}
+.header_title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header_description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0;
+}
+.btn{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* hot deal ! sale up Related style */
+#hot_deal{
+    background: rgba(229, 84, 115, 0.10);
+    margin: 40px 0 128px;
+}
+.hot_deal_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 186px;
+    padding: 100px 0;
+}
+.hot_deal_right_part img{
+    width: 100%;
+}
+.hot_deal_title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot_deal_description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 0 32px;
+}
+.hot_deal_right_part img{
+    width: 100%;
+}
+.off{
+    color: #E55473;
+}
+/* instagram related style */
+#instagram {
+    text-align: center;
+    padding-bottom: 128px;
+}
+.boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box img{
+    width: 100%;
+    padding-bottom: 0;
+}
+.instagram_title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 24px;
+}
+.instagram_description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 48px;
+}
