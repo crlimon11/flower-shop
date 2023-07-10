@@ -11,6 +11,7 @@
 /* header related style */
 header{
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 178px;
 }
 header .container{
     display: flex;
@@ -57,7 +58,7 @@ header img{
 /* hot deal ! sale up Related style */
 #hot_deal{
     background: rgba(229, 84, 115, 0.10);
-    margin: 40px 0 128px;
+    margin: 128px 0 128px;
 }
 .hot_deal_container{
     display: flex;
@@ -209,10 +210,81 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-/* ==================== */
-.bakso{
-    width: 464px;
-height: 538px;
+/* ========Featured Flowers============ */
+.featured{
+    text-align: center;
+    margin-bottom: 128px;
+}
+.featured_title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.featured_description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 48px;
+
+}
+.col1{
+    width: 264px;
+height: 338px;
 border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
+}
+.col1 img{
+    width: 230px;
+    padding-top: 21px;
+}
+.col2{
+    width: 264px;
+height: 338px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.col2 img{
+    width: 230px;
+    padding-top: 70px;
+}
+.col3{
+    width: 264px;
+height: 338px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.col3 img{
+    width: 190px;
+    padding-top: 53px;
+}
+.f{
+    margin-top: 22px;
+}
+.f a{
+    color: black;
+    
+}
+/* axtra related style */
+.extra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 86px 0;
+}
+.extra_work{
+background: rgba(39, 39, 39, 0.05);
 }
